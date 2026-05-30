@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>こころBot - 寝かしつけのあと、ひとりで抱えがちな気持ちを話せる場所</title>
+  <title>こころBot - 寝かしつけのあと、ひとりで抱えがちな気持ちを少しだけ話せる場所</title>
   <meta
     name="description"
-    content="こころBotは、子育て中のお母さんが、寝かしつけのあとに重くなる気持ちや育児のしんどさを匿名で話せるAIチャットです。"
+    content="こころBotは、子育て中のお母さんが、寝かしつけのあとに重くなる気持ちや育児のしんどさを匿名で少しだけ話せるLINEチャットです。"
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -127,18 +127,18 @@
     }
 
     .sub-copy {
-      font-size: 1.04rem;
+      font-size: 1.02rem;
       font-weight: 400;
-      line-height: 1.9;
+      line-height: 1.85;
       color: var(--text-primary);
-      margin-bottom: 18px;
+      margin-bottom: 14px;
     }
 
     .micro-copy {
-      font-size: 0.95rem;
+      font-size: 0.96rem;
       line-height: 1.8;
       color: var(--text-secondary);
-      margin-bottom: 34px;
+      margin-bottom: 26px;
     }
 
     .empathy-box {
@@ -146,21 +146,21 @@
       border: 1px solid var(--soft-line);
       border-radius: 22px;
       text-align: left;
-      padding: 24px 22px;
-      margin: 0 auto 30px;
+      padding: 22px 20px;
+      margin: 0 auto 26px;
       max-width: 620px;
     }
 
     .empathy-title {
       font-size: 1rem;
       font-weight: 700;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       color: var(--text-primary);
     }
 
     .empathy-text {
-      font-size: 0.98rem;
-      line-height: 1.95;
+      font-size: 0.96rem;
+      line-height: 1.85;
       color: #5e5a57;
     }
 
@@ -173,7 +173,7 @@
       justify-content: center;
       gap: 10px;
       flex-wrap: wrap;
-      margin: 0 auto 28px;
+      margin: 0 auto 22px;
     }
 
     .trust-pill {
@@ -185,6 +185,29 @@
       font-size: 0.86rem;
       line-height: 1;
       white-space: nowrap;
+    }
+
+    .login-note {
+      max-width: 580px;
+      margin: 0 auto 16px;
+      padding: 14px 16px;
+      background: #f8f6f4;
+      border: 1px solid var(--soft-line);
+      border-radius: 18px;
+      text-align: left;
+    }
+
+    .login-note-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .login-note-text {
+      font-size: 0.9rem;
+      line-height: 1.8;
+      color: var(--text-secondary);
     }
 
     .cta-btn {
@@ -200,7 +223,7 @@
       color: #ffffff;
       text-decoration: none;
       border-radius: 999px;
-      font-size: 1.15rem;
+      font-size: 1.12rem;
       font-weight: 700;
       box-shadow: 0 10px 24px var(--cta-shadow);
       transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
@@ -222,29 +245,57 @@
       flex-shrink: 0;
     }
 
-    .footer-note {
-      margin-top: 18px;
+    .cta-support {
+      margin-top: 16px;
       font-size: 0.92rem;
       line-height: 1.8;
-      color: var(--text-muted);
+      color: var(--text-secondary);
+    }
+
+    .cta-support-strong {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .service-info {
+      margin: 30px auto 0;
+      padding-top: 22px;
+      border-top: 1px solid var(--soft-line);
+      max-width: 560px;
+      font-size: 0.88rem;
+      line-height: 1.9;
+      color: var(--text-secondary);
+    }
+
+    .service-info p + p {
+      margin-top: 6px;
+    }
+
+    .service-info a {
+      color: var(--soft-pink-text);
+      text-decoration: none;
+    }
+
+    .service-info a:hover {
+      text-decoration: underline;
     }
 
     .survey-box {
-      margin: 34px auto 0;
-      padding-top: 24px;
+      margin: 28px auto 0;
+      padding-top: 22px;
       border-top: 1px solid var(--soft-line);
       max-width: 560px;
     }
 
     .survey-text {
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       line-height: 1.8;
       color: var(--text-secondary);
       margin-bottom: 10px;
     }
 
     .survey-link {
-      font-size: 0.94rem;
+      font-size: 0.92rem;
       color: var(--soft-pink-text);
       text-decoration: none;
       font-weight: 500;
@@ -289,36 +340,37 @@
       .headline {
         font-size: 1.42rem;
         line-height: 1.7;
-        margin-bottom: 16px;
+        margin-bottom: 14px;
       }
 
       .sub-copy {
-        font-size: 0.98rem;
-        line-height: 1.8;
-        margin-bottom: 14px;
+        font-size: 0.96rem;
+        line-height: 1.75;
+        margin-bottom: 12px;
       }
 
       .micro-copy {
         font-size: 0.84rem;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
       }
 
       .empathy-box {
         padding: 18px 16px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
       }
 
       .empathy-title {
-        font-size: 0.95rem;
+        font-size: 0.94rem;
       }
 
       .empathy-text {
-        font-size: 0.9rem;
+        font-size: 0.88rem;
+        line-height: 1.8;
       }
 
       .trust-row {
         gap: 8px;
-        margin-bottom: 24px;
+        margin-bottom: 18px;
       }
 
       .trust-pill {
@@ -326,10 +378,23 @@
         padding: 7px 11px;
       }
 
+      .login-note {
+        padding: 12px 14px;
+        margin-bottom: 14px;
+      }
+
+      .login-note-title {
+        font-size: 0.84rem;
+      }
+
+      .login-note-text {
+        font-size: 0.82rem;
+      }
+
       .cta-btn {
         max-width: 100%;
         min-height: 60px;
-        font-size: 1rem;
+        font-size: 0.98rem;
         padding: 16px 22px;
       }
 
@@ -338,22 +403,27 @@
         height: 22px;
       }
 
-      .footer-note {
+      .cta-support {
+        font-size: 0.82rem;
+        margin-top: 14px;
+      }
+
+      .service-info {
         font-size: 0.8rem;
-        margin-top: 16px;
+        margin-top: 24px;
       }
 
       .survey-box {
-        margin-top: 28px;
-        padding-top: 20px;
+        margin-top: 24px;
+        padding-top: 18px;
       }
 
       .survey-text {
-        font-size: 0.82rem;
+        font-size: 0.8rem;
       }
 
       .survey-link {
-        font-size: 0.84rem;
+        font-size: 0.82rem;
       }
     }
 
@@ -368,11 +438,11 @@
 
       .sub-copy,
       .empathy-text {
-        font-size: 0.88rem;
+        font-size: 0.86rem;
       }
 
       .cta-btn {
-        font-size: 0.94rem;
+        font-size: 0.92rem;
         min-height: 56px;
       }
     }
@@ -405,13 +475,15 @@
     </h1>
 
     <p class="sub-copy">
-      子育て中のお母さんが、夜に重くなる気持ちや<br />
-      育児のしんどさを匿名で話せるLINEチャットです
+      夜になると重くなる気持ちや、<br />
+      育児のしんどさを匿名で少しだけ話せる<br />
+      LINEチャットです
     </p>
 
     <p class="micro-copy">
       誰かに相談するほどでもない。<br />
-      でも、ひとりで抱えるには少しつらい。そんなときのために作りました。
+      だけど、ひとりで抱えるには少しつらい。<br />
+      そんなときのために作りました。
     </p>
 
     <div class="empathy-box">
@@ -421,12 +493,8 @@
         気持ちが落ち着かなくて、いろいろ考えてしまう。
       </p>
       <p class="empathy-text">
-        誰かに話したい気もするけれど、
-        家族や友達には言いづらくて、そのまま飲み込んでしまう。
-      </p>
-      <p class="empathy-text">
-        こころBotは、そんなときに匿名のまま少し気持ちを吐き出して、
-        頭の中を整理するための最初の一歩です。
+        誰かに相談するほどでもない。だけど、
+        ひとりで抱えるには少しつらい。
       </p>
     </div>
 
@@ -434,6 +502,14 @@
       <span class="trust-pill">完全匿名</span>
       <span class="trust-pill">無料で利用</span>
       <span class="trust-pill">LINEですぐ開始</span>
+    </div>
+
+    <div class="login-note">
+      <p class="login-note-title">LINEですぐ使えます</p>
+      <p class="login-note-text">
+        いつものLINEアカウントで使えます。新しいアカウント作成は不要です。
+        LINEログイン後、すぐに匿名で使い始められます。
+      </p>
     </div>
 
     <a
@@ -447,12 +523,21 @@
       <svg class="cta-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
         <path d="M12 3C6.477 3 2 6.94 2 11.8c0 2.77 1.49 5.24 3.82 6.86L5 22l3.86-2.12c.99.27 2.04.42 3.14.42 5.523 0 10-3.94 10-8.8S17.523 3 12 3z"></path>
       </svg>
-      LINEで無料で話してみる
+      匿名で少しだけ話してみる
     </a>
 
-    <p class="footer-note">
-      LINEでログインして、すぐに匿名で使えます
+    <p class="cta-support">
+      <span class="cta-support-strong">なんとなくつらいだけでも大丈夫です。</span><br />
+      無理にうまく言葉にしなくても、そのまま話し始められます。
     </p>
+
+    <div class="service-info">
+      <p>運営：こころBot運営事務局</p>
+      <p>本サービスは、気持ちの整理や会話のきっかけを提供するものであり、医療行為を目的としたものではありません。</p>
+      <p>
+        <a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+      </p>
+    </div>
 
     <div class="survey-box">
       <p class="survey-text">
@@ -467,6 +552,4 @@
         1分でアンケートに答える
       </a>
     </div>
-  </main>
-</body>
-</html>
+  </
